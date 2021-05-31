@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_timetable"
+        android:enabled="true"
+        android:icon="@drawable/timetable"
+        android:title="test4"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/navigation_calendar"
+        android:enabled="true"
+        android:icon="@drawable/calendar"
+        android:title="test1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/navigation_note"
+        android:enabled="true"
+        android:icon="@drawable/note"
+        android:title="test3"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/navigation_profil"
+        android:enabled="true"
+        android:icon="@drawable/account"
+        android:title="test2"
+        app:showAsAction="ifRoom" />
+
+
+
+</menu>
